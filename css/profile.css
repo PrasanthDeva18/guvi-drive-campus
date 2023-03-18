@@ -1,0 +1,33 @@
+* body{
+    background-image: url('../assets/back.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+   
+    background-position: center;
+    
+}
+
+.ppp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#data-container{
+    background-color: #5A7FB7;
+    width: 400px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

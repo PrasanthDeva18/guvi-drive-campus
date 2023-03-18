@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>User Registration Form</title>
+	<link rel="stylesheet" href="./css/register.css" />	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="./js/register.js"></script>
+
+</head>
+
+<body>
+	<div class="con">
+		<div class="contain ">
+			<h2>Registration Form</h2>
+			<form method="post">
+				<div class="form1">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" class="form-control" id="exampleInputfirstname" name="name">
+					</div>
+					<br>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" class="form-control" id="exampleInputlastname" name="email">
+					</div>
+				</div>
+				<br>
+				<div class="form1">
+					<div class="form-group">
+						<label for="phoneno">Phone Number</label>
+						<input type="text" class="form-control" id="exampleInputphoneno" name="phone">
+					</div>
+					<br>
+					<div class="form-group">
+						<label for="age">Age</label>
+						<input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+							name="age">
+					</div>
+
+				</div>
+
+				<br>
+				<div class="form1">
+					<div class="form-group">
+						<label for="dob">Date of Birth</label>
+						<input type="date" class="form-control" id="exampleInputPassword" name="dob">
+					</div>
+					<br>
+					<div class="form-group">
+						<label for="Password">Password</label>
+						<input type="password" class="form-control" id="exampleInputPassword" name="password">
+					</div>
+
+				</div>
+
+				<br>
+				<input type="submit" class="btn prasa-btn btn-success" name="submit" value="Submit">
+				<br>
+				<br>
+				<a href="./login.html" style="color:black;text-decoration: none;">Already Logged in user? <span> Login</span> </a>
+			</form>
+			<div id="message">
+			
+			</div>
+		</div>
+
+</body>
+
+</html>

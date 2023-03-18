@@ -1,0 +1,39 @@
+ *  body{
+    background-image: url('../assets/back.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10% ;
+}
+
+.contain{
+    width: 400px;
+    border: ridge 1.5px white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.prasa-btn{
+    margin-left: 140px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+::-webkit-scrollbar {
+    display: none;
+}
