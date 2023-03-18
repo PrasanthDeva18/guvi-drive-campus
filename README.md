@@ -11,5 +11,6 @@
    After that import the package as require '/vendor/autoload.php'
 6. All the process has done start the apache load the webpage on the browser 
 7. redis to use the content normally
+
    
 
