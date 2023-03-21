@@ -28,11 +28,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
     // $cursor = $collection->find([], ['projection' => ['_id' => 0]],);
     // $cursor = $collection->find([
-    //     'email' => $email
+    //     'email' => $cacheentry
     // ]
     // );
     $cursor = $collection->find([
-        'email'=>$email
+        'email'=>$cacheentry
     ]);
 
     $data = array();
