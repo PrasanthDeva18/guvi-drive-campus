@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     // echo 'hiii';
     // echo 'respone';
 
-    $email = $_POST['email'];
+    $email = $_GET['email'];
     // $email = 'pr@gmail.com';
     // $email = 'prasanthvennila@gmail.com';   
     // echo $email;
