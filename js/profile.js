@@ -10,6 +10,7 @@ $(document).ready(function() {
         data:{
             email:email
         },
+        encode:true,
         success: function(res) {
             var html = '';
             $.each(res, function(key, value) {
